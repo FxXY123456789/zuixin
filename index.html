@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>秒表</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>秒表</h1>
+        <div class="timer-display" id="timerDisplay">0.00 秒</div>
+        <div class="button-container">
+            <button id="startButton">开始</button>
+            <button id="pauseButton">暂停/继续</button>
+            <button id="segmentButton">分段</button>
+        </div>
+        <div class="button-container">
+            <button id="exportButton">导出</button>
+        </div>
+        <div class="log-container">
+            <h2>记录</h2>
+            <div class="log" id="log"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
